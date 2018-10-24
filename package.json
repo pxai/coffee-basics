@@ -1,0 +1,23 @@
+{
+  "name": "coffee-basics",
+  "version": "1.0.0",
+  "description": "CoffeeScript basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxai/coffee-basics.git"
+  },
+  "author": "Pello Altadill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxai/coffee-basics/issues"
+  },
+  "homepage": "https://github.com/pxai/coffee-basics#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "coffeescript": "^2.3.2"
+  }
+}
