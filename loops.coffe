@@ -1,0 +1,7 @@
+# loops.coffee
+
+for i in [0..5]
+  console.log("#{i}")
+
+for i in [0,1,2]
+  console.log("#{i}")
