@@ -31,3 +31,18 @@ log = (msg, prefix = "LOG>") ->
     console.log("#{prefix} #{msg}");
 
 log("Starting...")
+
+# Functions with fat arrow to keep the scope
+this.name = "Gandalf"
+
+bye1 = =>
+    console.log("arrow to use local scope")
+    console.log(this.name)  # Gandalf
+
+bye1()
+
+bye2 = ->
+    console.log("arrow to use local scope")
+    console.log(this.name)  # undefined
+
+bye2()

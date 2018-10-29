@@ -5,3 +5,12 @@ for i in [0..5]
 
 for i in [0,1,2]
   console.log("#{i}")
+
+a = 5
+
+while a > 0
+    a = a - 1
+    console.log("#{a}")
+
+    break if a is 2
+
